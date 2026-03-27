@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { ScenarioId, SimulationEvent, ChatMessage, ChatRole } from '../types/simulation';
+import type { ScenarioId, SimulationEvent, ChatMessage } from '../types/simulation';
 
 interface SimulationState {
   // State
